@@ -1,0 +1,90 @@
+3.1
+SELECT * FROM users;
+
+3.2
+SELECT name FROM users
+WHERE name ILIKE '%а%'
+
+3.3
+SELECT name, prise FROM products
+WHERE prise>=100
+
+3.4
+SELECT name FROM users
+WHERE details IS NULL
+
+3.5
+ SELECT
+     p.name AS product,
+     COUNT(DISTINCT c.user_id) AS user
+ FROM cart c
+ JOIN products p ON c.products_id = p.id
+ GROUP BY p.name
+
+3.6
+SELECT
+    u.id AS ID,
+    u.name AS Name,
+    SUM(o.total_sum)
+FROM orders o
+JOIN users u ON o.user_id = u.id
+GROUP BY u.name, u.id
+
+3.7
+\promt 'user_id' i
+SELECT
+    p.name
+FROM cart c
+JOIN products p ON c.products_id = p.id
+WHERE user_id = :i;
+
+3.8
+SELECT
+    u.name AS Name
+FROM orders o
+JOIN users u on u.id = o.user_id
+WHERE total_sum >=500
+GROUP BY u.name
+
+
+3.9
+SELECT
+    u.name AS NAME,
+    SUM(c.number) AS SUM
+FROM cart c
+JOIN users u ON c.user_id = u.id
+GROUP BY u.name
+ORDER BY SUM DESC
+LIMIT 1
+
+
+3.10
+SELECT
+    id,
+    name,
+    prise
+FROM products
+ORDER BY prise DESC
+LIMIT 5
+
+
+3.11
+SELECT
+    id,
+    name,
+    prise
+FROM products
+WHERE prise> (SELECT
+                 AVG(prise)
+             FROM products)
+
+
+3.12
+3.13
+3.14
+3.15
+3.16
+3.17
+3.18
+3.19
+3.20

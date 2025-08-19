@@ -1,0 +1,32 @@
+package main.jdbc.eternity;
+
+public class Users {
+    private int id;
+    private String name;
+    private int details;
+
+    public Users(int id, String name, int details) {
+        this.id = id;
+        this.name = name;
+        this.details = details;
+    }
+    public Users() {}
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getDetails() {
+        return details;
+    }
+    public void setDetails(int details) {
+        this.details = details;
+    }
+}
