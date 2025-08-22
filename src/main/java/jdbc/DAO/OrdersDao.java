@@ -1,6 +1,9 @@
 package jdbc.DAO;
 
+import hibernate.DAO.CartDao;
 import jdbc.entity.Orders;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,7 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OrdersDao extends Dao{
+    private static final Logger log = LogManager.getLogger(CartDao.class);
+
     public static void create(Orders o) throws SQLException {
+        log.info("Create " + o);
         String query = "insert into orders (user_id, products_list, total_sum) values(?,?,?)";
         PreparedStatement stmt = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
         stmt.setInt(1, o.getUserId());
@@ -23,6 +29,7 @@ public class OrdersDao extends Dao{
         }
     }
     public static List<Orders> read(int id) throws SQLException {
+        log.info("Read " + id);
         String query = "select * from orders where user_id=?";
         PreparedStatement stmt = conn.prepareStatement(query);
         stmt.setInt(1, id);
@@ -37,6 +44,7 @@ public class OrdersDao extends Dao{
         return orders;
     }
     public static List<Orders> read() throws SQLException {
+        log.info("Read");
         String query = "select * from orders";
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(query);

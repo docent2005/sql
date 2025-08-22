@@ -1,0 +1,5 @@
+2025-08-22 12:53:15.112 [main] INFO  CartDao.getByUser:20 - getByUser called
+2025-08-22 12:53:15.399 [main] WARN  pooling.configure:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-08-22 12:53:15.709 [main] WARN  deprecation.constructDialect:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-22 12:53:17.960 [main] INFO  CartDao.read:39 - Read 1
+2025-08-22 12:53:17.963 [main] INFO  CartDao.create:19 - Create jdbc.entity.Orders@49122853
