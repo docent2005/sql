@@ -7,7 +7,7 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 public class Dao<T> {
-    private static final Logger log = LogManager.getLogger(CartDao.class);
+    private static final Logger log = LogManager.getLogger(Dao.class);
 
     private Class<T> clazz;
     public Dao(Class<T> clazz) {

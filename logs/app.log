@@ -1,5 +1,130 @@
-2025-08-22 12:53:15.112 [main] INFO  CartDao.getByUser:20 - getByUser called
-2025-08-22 12:53:15.399 [main] WARN  pooling.configure:86 - HHH10001002: Using built-in connection pool (not intended for production use)
-2025-08-22 12:53:15.709 [main] WARN  deprecation.constructDialect:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-08-22 12:53:17.960 [main] INFO  CartDao.read:39 - Read 1
-2025-08-22 12:53:17.963 [main] INFO  CartDao.create:19 - Create jdbc.entity.Orders@49122853
+2025-08-23 00:25:47.561 [main] WARN  pooling.configure:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-08-23 00:25:47.899 [main] WARN  deprecation.constructDialect:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-23 00:25:49.443 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@7f4e5a39
+2025-08-23 00:25:49.448 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@23648d2d
+2025-08-23 00:25:49.450 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@2bcda694
+2025-08-23 00:25:49.453 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@537b3b2e
+2025-08-23 00:25:49.457 [main] INFO  CardDao.create:18 - Create jdbc.entity.Card@28b458e6
+2025-08-23 00:25:49.477 [main] INFO  CardDao.read:42 - Read 1
+2025-08-23 00:25:49.478 [main] INFO  ProductsDao.read:39 - Read product 1
+2025-08-23 00:25:49.480 [main] INFO  OrdersDao.create:19 - Create jdbc.entity.Orders@6fb0261e
+2025-08-23 00:28:43.524 [main] WARN  pooling.configure:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-08-23 00:28:43.836 [main] WARN  deprecation.constructDialect:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-23 00:28:45.413 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@3b6c2be6
+2025-08-23 00:28:45.417 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@6826b70f
+2025-08-23 00:28:45.420 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@3a4e524
+2025-08-23 00:28:45.425 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@38c761e9
+2025-08-23 00:28:45.431 [main] INFO  CardDao.create:18 - Create jdbc.entity.Card@33de7f3d
+2025-08-23 00:28:45.466 [main] INFO  CardDao.read:42 - Read 1
+2025-08-23 00:28:45.467 [main] INFO  ProductsDao.read:39 - Read product 1
+2025-08-23 00:28:45.469 [main] INFO  OrdersDao.create:19 - Create jdbc.entity.Orders@1815577b
+2025-08-23 00:28:45.472 [main] INFO  OrdersDao.read:32 - Read 1
+2025-08-23 00:28:54.624 [main] WARN  pooling.configure:86 - HHH10001002: Using built-in connection pool (not intended for production use)
+2025-08-23 00:28:55.041 [main] WARN  deprecation.constructDialect:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-23 00:28:56.625 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@27422187
+2025-08-23 00:28:56.686 [main] INFO  Dao.read:43 - Read Cart 1
+2025-08-23 00:28:56.731 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@5fb05c07
+2025-08-23 00:28:56.734 [main] INFO  Dao.delete:35 - Delete Cart hibernate.entity.Cart@5fb05c07
+2025-08-23 00:28:56.753 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@2ffaa711
+2025-08-23 00:28:56.756 [main] INFO  Dao.delete:35 - Delete Cart hibernate.entity.Cart@2ffaa711
+2025-08-23 00:28:56.757 [main] INFO  Dao.read:43 - Read Cart 1
+2025-08-23 00:28:56.769 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@1a61f634
+2025-08-23 00:28:56.772 [main] INFO  Dao.update:27 - Update Cart hibernate.entity.Cart@1a61f634
+2025-08-23 00:28:56.781 [main] INFO  Dao.read:43 - Read Cart 1
+2025-08-23 00:28:56.783 [main] INFO  Dao.delete:35 - Delete Cart hibernate.entity.Cart@1a61f634
+2025-08-23 00:28:56.794 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@7e1ae693
+2025-08-23 00:28:56.797 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@3ef4a8fb
+2025-08-23 00:28:56.799 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@6f70015
+2025-08-23 00:28:56.801 [main] INFO  CartDao.getByUser:20 - getByUser called
+2025-08-23 00:28:57.235 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@197c3101
+2025-08-23 00:28:57.239 [main] INFO  Dao.read:43 - Read Cart 1
+2025-08-23 00:28:57.248 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@5a097a83
+2025-08-23 00:28:57.252 [main] INFO  Dao.delete:35 - Delete Cart hibernate.entity.Cart@5a097a83
+2025-08-23 00:28:57.259 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@77a13162
+2025-08-23 00:28:57.263 [main] INFO  Dao.delete:35 - Delete Cart hibernate.entity.Cart@77a13162
+2025-08-23 00:28:57.265 [main] INFO  Dao.read:43 - Read Cart 1
+2025-08-23 00:28:57.272 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@78c34153
+2025-08-23 00:28:57.276 [main] INFO  Dao.update:27 - Update Cart hibernate.entity.Cart@78c34153
+2025-08-23 00:28:57.278 [main] INFO  Dao.read:43 - Read Cart 1
+2025-08-23 00:28:57.280 [main] INFO  Dao.delete:35 - Delete Cart hibernate.entity.Cart@78c34153
+2025-08-23 00:28:57.391 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@7a925ac4
+2025-08-23 00:28:57.397 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@56114349
+2025-08-23 00:28:57.401 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@4f5d587c
+2025-08-23 00:28:57.405 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@39d62e47
+2025-08-23 00:28:57.408 [main] INFO  Dao.create:17 - Create Cart hibernate.entity.Cart@1ced1fb9
+2025-08-23 00:28:57.415 [main] INFO  OrderService.setOrder:17 - Set order with userId 1
+2025-08-23 00:28:57.415 [main] INFO  CartDao.getByUser:20 - getByUser called
+2025-08-23 00:28:57.419 [main] INFO  Dao.read:43 - Read Products 1
+2025-08-23 00:28:57.421 [main] INFO  Dao.read:43 - Read Products 1
+2025-08-23 00:28:57.422 [main] INFO  Dao.create:17 - Create Orders hibernate.entity.Orders@1df8ea34
+2025-08-23 00:28:57.425 [main] INFO  Dao.read:43 - Read Orders 1
+2025-08-23 00:28:57.427 [main] INFO  Dao.read:43 - Read Orders 1
+2025-08-23 00:28:57.428 [main] INFO  Dao.read:43 - Read Orders 1
+2025-08-23 00:28:57.431 [main] INFO  Dao.delete:35 - Delete Cart hibernate.entity.Cart@1ced1fb9
+2025-08-23 00:28:57.464 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@4700db93
+2025-08-23 00:28:57.468 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@560e1459
+2025-08-23 00:28:57.470 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@6aa7d7a0
+2025-08-23 00:28:57.473 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@4c3125ff
+2025-08-23 00:28:57.486 [main] INFO  CardDao.create:18 - Create jdbc.entity.Card@3a33d655
+2025-08-23 00:28:57.490 [main] INFO  CardDao.read:42 - Read 1
+2025-08-23 00:28:57.503 [main] INFO  CardDao.create:18 - Create jdbc.entity.Card@70c6c6a7
+2025-08-23 00:28:57.506 [main] INFO  CardDao.delete:35 - Delete 1
+2025-08-23 00:28:57.509 [main] INFO  CardDao.read:42 - Read 1
+2025-08-23 00:28:57.519 [main] INFO  CardDao.create:18 - Create jdbc.entity.Card@303a484e
+2025-08-23 00:28:57.522 [main] INFO  CardDao.read:42 - Read 1
+2025-08-23 00:28:57.523 [main] INFO  CardDao.create:18 - Create jdbc.entity.Card@760f4310
+2025-08-23 00:28:57.524 [main] INFO  CardDao.delete:35 - Delete 1
+2025-08-23 00:28:57.525 [main] INFO  CardDao.read:42 - Read 1
+2025-08-23 00:28:57.536 [main] INFO  CardDao.create:18 - Create jdbc.entity.Card@77eb76f
+2025-08-23 00:28:57.539 [main] INFO  CardDao.read:42 - Read 1
+2025-08-23 00:28:57.567 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@6ccd3cf1
+2025-08-23 00:28:57.570 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@4c9235c0
+2025-08-23 00:28:57.571 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@1ae69abe
+2025-08-23 00:28:57.579 [main] INFO  OrdersDao.create:19 - Create jdbc.entity.Orders@23acd55e
+2025-08-23 00:28:57.581 [main] INFO  OrdersDao.create:19 - Create jdbc.entity.Orders@23acd55e
+2025-08-23 00:28:57.582 [main] INFO  OrdersDao.read:47 - Read all
+2025-08-23 00:28:57.583 [main] INFO  OrdersDao.read:47 - Read all
+2025-08-23 00:28:57.593 [main] INFO  OrdersDao.create:19 - Create jdbc.entity.Orders@611f28f5
+2025-08-23 00:28:57.596 [main] INFO  OrdersDao.read:32 - Read 1
+2025-08-23 00:28:57.612 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@4290fcd7
+2025-08-23 00:28:57.615 [main] INFO  ProductsDao.delete:56 - Delete product 1
+2025-08-23 00:28:57.617 [main] INFO  ProductsDao.read:39 - Read product 1
+2025-08-23 00:28:57.627 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@6f78c132
+2025-08-23 00:28:57.630 [main] INFO  ProductsDao.update:47 - Update product jdbc.entity.Products@6f78c132
+2025-08-23 00:28:57.631 [main] INFO  ProductsDao.read:39 - Read product 1
+2025-08-23 00:28:57.643 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@42f9b425
+2025-08-23 00:28:57.647 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@42f9b425
+2025-08-23 00:28:57.650 [main] INFO  ProductsDao.read:27 - Read all products
+2025-08-23 00:28:57.670 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@1ed17eaf
+2025-08-23 00:28:57.678 [main] INFO  ProductsDao.read:39 - Read product 1
+2025-08-23 00:28:57.704 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@723aa04
+2025-08-23 00:28:57.708 [main] INFO  UserDetailsDao.delete:56 - Delete 1
+2025-08-23 00:28:57.710 [main] INFO  UserDetailsDao.read:39 - Read 1
+2025-08-23 00:28:57.725 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@2a20332b
+2025-08-23 00:28:57.730 [main] INFO  UserDetailsDao.update:47 - Update jdbc.entity.UserDetails@2a20332b
+2025-08-23 00:28:57.732 [main] INFO  UserDetailsDao.read:39 - Read 1
+2025-08-23 00:28:57.745 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@1444e35f
+2025-08-23 00:28:57.750 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@1444e35f
+2025-08-23 00:28:57.751 [main] INFO  UserDetailsDao.read:28 - Read all details
+2025-08-23 00:28:57.762 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@7bb50747
+2025-08-23 00:28:57.765 [main] INFO  UserDetailsDao.read:39 - Read 1
+2025-08-23 00:28:57.785 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@17db90a7
+2025-08-23 00:28:57.788 [main] INFO  UsersDAO.delete:54 - Delete 1
+2025-08-23 00:28:57.789 [main] INFO  UsersDAO.read:37 - Read 1
+2025-08-23 00:28:57.801 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@682fc714
+2025-08-23 00:28:57.803 [main] INFO  UsersDAO.update:45 - Update jdbc.entity.Users@682fc714
+2025-08-23 00:28:57.805 [main] INFO  UsersDAO.read:37 - Read 1
+2025-08-23 00:28:57.816 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@753248f8
+2025-08-23 00:28:57.819 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@753248f8
+2025-08-23 00:28:57.821 [main] INFO  UsersDAO.read:26 - Read all users
+2025-08-23 00:28:57.834 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@2e94655a
+2025-08-23 00:28:57.837 [main] INFO  UsersDAO.read:37 - Read 1
+2025-08-23 00:28:57.891 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@4ec28534
+2025-08-23 00:28:57.896 [main] INFO  UsersDAO.create:15 - Create jdbc.entity.Users@921dbcf
+2025-08-23 00:28:57.899 [main] INFO  UserDetailsDao.create:17 - Create jdbc.entity.UserDetails@163b8acc
+2025-08-23 00:28:57.903 [main] INFO  ProductsDao.create:16 - Create jdbc.entity.Products@24090832
+2025-08-23 00:28:57.906 [main] INFO  CardDao.create:18 - Create jdbc.entity.Card@7e38d2a2
+2025-08-23 00:28:57.912 [main] INFO  CardDao.read:42 - Read 1
+2025-08-23 00:28:57.914 [main] INFO  ProductsDao.read:39 - Read product 1
+2025-08-23 00:28:57.917 [main] INFO  OrdersDao.create:19 - Create jdbc.entity.Orders@33671907
+2025-08-23 00:28:57.920 [main] INFO  OrdersDao.read:32 - Read 1

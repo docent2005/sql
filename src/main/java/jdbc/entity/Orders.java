@@ -12,6 +12,8 @@ public class Orders {
         this.productsList = productsList;
         this.totalSum = totalSum;
     }
+    public Orders() {}
+
     public int getId() {
         return id;
     }

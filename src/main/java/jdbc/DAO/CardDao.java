@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CardDao extends Dao{
-    private static final Logger log = LogManager.getLogger(CartDao.class);
+    private static final Logger log = LogManager.getLogger(CardDao.class);
 
     public static void create(Card card) throws SQLException {
         log.info("Create " + card);
@@ -21,19 +21,22 @@ public class CardDao extends Dao{
         stmt.setInt(1, card.getUserId());
         stmt.setInt(2, card.getProductId());
         stmt.setInt(3, card.getNumber());
+        stmt.executeUpdate();
     }
     public static void delete(Card card) throws SQLException {
         log.info("Delete " + card);
-        String sql = "delete from cart where user_id=? and product_id=?";
+        String sql = "delete from cart where user_id=? and products_id=?";
         PreparedStatement stmt = conn.prepareStatement(sql);
         stmt.setInt(1, card.getUserId());
         stmt.setInt(2, card.getProductId());
+        stmt.executeUpdate();
     }
     public static void delete(int id) throws SQLException {
         log.info("Delete " + id);
         String sql = "delete from cart where user_id=?";
         PreparedStatement stmt = conn.prepareStatement(sql);
         stmt.setInt(1, id);
+        stmt.executeUpdate();
     }
     public static List<Card> read(int id) throws SQLException {
         log.info("Read " + id);

@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OrdersDao extends Dao{
-    private static final Logger log = LogManager.getLogger(CartDao.class);
+    private static final Logger log = LogManager.getLogger(OrdersDao.class);
 
     public static void create(Orders o) throws SQLException {
         log.info("Create " + o);
@@ -44,7 +44,7 @@ public class OrdersDao extends Dao{
         return orders;
     }
     public static List<Orders> read() throws SQLException {
-        log.info("Read");
+        log.info("Read all");
         String query = "select * from orders";
         Statement stmt = conn.createStatement();
         ResultSet rs = stmt.executeQuery(query);
